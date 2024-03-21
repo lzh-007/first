@@ -3,13 +3,17 @@ import requests
 import pytest
 import os
 import allure_pytest
+import sys
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+print(BASE_DIR)
+sys.path.append(BASE_DIR)
+
+all_Cases=xToolkit.xfile.read('test.xls').excel_to_dict(sheet=0)
+print("所有信息：",all_Cases)
 
 
-all_Case=xToolkit.xfile.read('../test.xls').excel_to_dict(sheet=0)
-print("所有信息：",all_Case)
-
-
-@pytest.mark.parametrize("case",all_Case)
+@pytest.mark.parametrize("case",all_Cases)
 def test_api(case):
     response=requests.request(url=eval(case["接口URL"]),
                               method=case["请求方式"],
