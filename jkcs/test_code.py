@@ -21,4 +21,4 @@ def test_api(case):
 
 if __name__ == '__main__':
     pytest.main(['--alluredir=allure-results'])
-    os.system(r"allure generate -c -o allure-report")
+    os.system(r"allure generate allure-results -c ")
