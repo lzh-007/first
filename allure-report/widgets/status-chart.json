@@ -1,0 +1,31 @@
+[ {
+  "uid" : "fbbedc810da24736",
+  "name" : "test_api[code]",
+  "time" : {
+    "start" : 1711016938003,
+    "stop" : 1711016938003,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a4a2b915173ba9bf",
+  "name" : "test_api[data]",
+  "time" : {
+    "start" : 1711016938362,
+    "stop" : 1711016938362,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "96f0a22b4ba39171",
+  "name" : "test_api[msg]",
+  "time" : {
+    "start" : 1711016938362,
+    "stop" : 1711016938362,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: string indices must be integers, not 'str'",
+      "children" : [ {
+        "name" : "test_api[code]",
+        "uid" : "fbbedc810da24736",
+        "parentUid" : "a30fad583b6722ac2edaee6ed80bed14",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711016938003,
+          "stop" : 1711016938003,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'code'" ]
+      }, {
+        "name" : "test_api[data]",
+        "uid" : "a4a2b915173ba9bf",
+        "parentUid" : "a30fad583b6722ac2edaee6ed80bed14",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711016938362,
+          "stop" : 1711016938362,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'data'" ]
+      }, {
+        "name" : "test_api[msg]",
+        "uid" : "96f0a22b4ba39171",
+        "parentUid" : "a30fad583b6722ac2edaee6ed80bed14",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711016938362,
+          "stop" : 1711016938362,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'msg'" ]
+      } ],
+      "uid" : "a30fad583b6722ac2edaee6ed80bed14"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

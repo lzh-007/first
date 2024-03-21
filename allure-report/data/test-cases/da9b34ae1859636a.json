@@ -1,0 +1,60 @@
+{
+  "uid" : "da9b34ae1859636a",
+  "name" : "test_api[msg]",
+  "fullName" : "jkcs.test_code#test_api",
+  "historyId" : "1627eff8273727b171542ea29e4c7b6e",
+  "time" : {
+    "start" : 1710338374984,
+    "stop" : 1710338374984,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: string indices must be integers, not 'str'",
+  "statusTrace" : "case = 'msg'\n\n    @pytest.mark.parametrize(\"case\",all_Case)\n    def test_api(case):\n>       response=requests.request(url=eval(case[\"接口URL\"]),\n                                  method=case[\"请求方式\"],\n                                  json=eval(case[\"URL参数\"]) ,\n                                  headers=eval(case[\"参数类型\"]) )\nE       TypeError: string indices must be integers, not 'str'\n\njkcs\\test_code.py:13: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "jkcs"
+  }, {
+    "name" : "suite",
+    "value" : "test_code"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-V36KAUT5"
+  }, {
+    "name" : "thread",
+    "value" : "25876-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "jkcs.test_code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "'msg'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da9b34ae1859636a.json",
+  "parameterValues" : [ "'msg'" ]
+}
