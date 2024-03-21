@@ -4,10 +4,48 @@
   "children" : [ {
     "name" : "LAPTOP-V36KAUT5",
     "children" : [ {
+      "name" : "17988-MainThread",
+      "children" : [ {
+        "name" : "test_api[case1]",
+        "uid" : "d45be9fca9a395e1",
+        "parentUid" : "a01f93603a20e3dacf2935bc0b448762",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025066587,
+          "stop" : 1711025066744,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      }, {
+        "name" : "test_api[case0]",
+        "uid" : "80206cfe2db84e93",
+        "parentUid" : "a01f93603a20e3dacf2935bc0b448762",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025066400,
+          "stop" : 1711025066587,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      } ],
+      "uid" : "a01f93603a20e3dacf2935bc0b448762"
+    }, {
       "name" : "25876-MainThread",
       "children" : [ {
         "name" : "test_api[code]",
-        "uid" : "de20542142c7827a",
+        "uid" : "a0ee369fe037c038",
         "parentUid" : "a6f1bf5bf59d742352b336ddc95352d5",
         "status" : "broken",
         "time" : {
@@ -23,25 +61,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'code'" ]
       }, {
-        "name" : "test_api[msg]",
-        "uid" : "da9b34ae1859636a",
-        "parentUid" : "a6f1bf5bf59d742352b336ddc95352d5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1710338374984,
-          "stop" : 1710338374984,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'msg'" ]
-      }, {
         "name" : "test_api[data]",
-        "uid" : "72eb00ec918bb98d",
+        "uid" : "cbde74a3d3dc523b",
         "parentUid" : "a6f1bf5bf59d742352b336ddc95352d5",
         "status" : "broken",
         "time" : {
@@ -56,13 +77,68 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "'data'" ]
+      }, {
+        "name" : "test_api[msg]",
+        "uid" : "822ec3fc38895356",
+        "parentUid" : "a6f1bf5bf59d742352b336ddc95352d5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710338374984,
+          "stop" : 1710338374984,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'msg'" ]
       } ],
       "uid" : "a6f1bf5bf59d742352b336ddc95352d5"
     }, {
+      "name" : "14628-MainThread",
+      "children" : [ {
+        "name" : "test_api[case1]",
+        "uid" : "103e5846b282bd60",
+        "parentUid" : "4cbd4fd2e50028afef3141bc63e81b60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025100952,
+          "stop" : 1711025101125,
+          "duration" : 173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      }, {
+        "name" : "test_api[case0]",
+        "uid" : "ebe8e9da535910eb",
+        "parentUid" : "4cbd4fd2e50028afef3141bc63e81b60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025100796,
+          "stop" : 1711025100952,
+          "duration" : 156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      } ],
+      "uid" : "4cbd4fd2e50028afef3141bc63e81b60"
+    }, {
       "name" : "15800-MainThread",
       "children" : [ {
-        "name" : "test_api[data]",
-        "uid" : "a4a2b915173ba9bf",
+        "name" : "test_api[msg]",
+        "uid" : "a22ccd6f5ee67f83",
         "parentUid" : "5146066cb7b1201e500c881624c3ad9a",
         "status" : "broken",
         "time" : {
@@ -76,10 +152,10 @@
         "newBroken" : false,
         "retriesCount" : 1,
         "retriesStatusChange" : false,
-        "parameters" : [ "'data'" ]
+        "parameters" : [ "'msg'" ]
       }, {
         "name" : "test_api[code]",
-        "uid" : "fbbedc810da24736",
+        "uid" : "d1f7439ea9ad04cf",
         "parentUid" : "5146066cb7b1201e500c881624c3ad9a",
         "status" : "broken",
         "time" : {
@@ -95,8 +171,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'code'" ]
       }, {
-        "name" : "test_api[msg]",
-        "uid" : "96f0a22b4ba39171",
+        "name" : "test_api[data]",
+        "uid" : "49e7fba4be5d177",
         "parentUid" : "5146066cb7b1201e500c881624c3ad9a",
         "status" : "broken",
         "time" : {
@@ -110,9 +186,237 @@
         "newBroken" : false,
         "retriesCount" : 1,
         "retriesStatusChange" : false,
-        "parameters" : [ "'msg'" ]
+        "parameters" : [ "'data'" ]
       } ],
       "uid" : "5146066cb7b1201e500c881624c3ad9a"
+    }, {
+      "name" : "4772-MainThread",
+      "children" : [ {
+        "name" : "test_api[case1]",
+        "uid" : "e0c5dbfd860d8bc3",
+        "parentUid" : "68df2fccf8254b145b2baf682173e523",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025135311,
+          "stop" : 1711025135467,
+          "duration" : 156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      }, {
+        "name" : "test_api[case0]",
+        "uid" : "bbd8be92cbd05a05",
+        "parentUid" : "68df2fccf8254b145b2baf682173e523",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025135139,
+          "stop" : 1711025135311,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      } ],
+      "uid" : "68df2fccf8254b145b2baf682173e523"
+    }, {
+      "name" : "22692-MainThread",
+      "children" : [ {
+        "name" : "test_api[case1]",
+        "uid" : "77e04fa41562267e",
+        "parentUid" : "bc712a3d8e1f3d622fb1c319fd50ae72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025228204,
+          "stop" : 1711025228345,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      }, {
+        "name" : "test_api[case0]",
+        "uid" : "e6bc199960c37098",
+        "parentUid" : "bc712a3d8e1f3d622fb1c319fd50ae72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025228016,
+          "stop" : 1711025228204,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      } ],
+      "uid" : "bc712a3d8e1f3d622fb1c319fd50ae72"
+    }, {
+      "name" : "20484-MainThread",
+      "children" : [ {
+        "name" : "test_api[case0]",
+        "uid" : "a9476a8546f5bdb",
+        "parentUid" : "e0a086ef3a0184505f344fe48cd3a181",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025149046,
+          "stop" : 1711025149204,
+          "duration" : 158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      }, {
+        "name" : "test_api[case1]",
+        "uid" : "d2f154d673035d2e",
+        "parentUid" : "e0a086ef3a0184505f344fe48cd3a181",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025149209,
+          "stop" : 1711025149365,
+          "duration" : 156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      } ],
+      "uid" : "e0a086ef3a0184505f344fe48cd3a181"
+    }, {
+      "name" : "21364-MainThread",
+      "children" : [ {
+        "name" : "test_api[case1]",
+        "uid" : "e091d564d1d9f690",
+        "parentUid" : "5f5e4e9a4659e5d1c4c23cde500152cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025306494,
+          "stop" : 1711025306652,
+          "duration" : 158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      }, {
+        "name" : "test_api[case0]",
+        "uid" : "dbc4e4e79fc6c3b9",
+        "parentUid" : "5f5e4e9a4659e5d1c4c23cde500152cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025306306,
+          "stop" : 1711025306494,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      } ],
+      "uid" : "5f5e4e9a4659e5d1c4c23cde500152cc"
+    }, {
+      "name" : "22804-MainThread",
+      "children" : [ {
+        "name" : "test_api[case0]",
+        "uid" : "99c7e93029864965",
+        "parentUid" : "879e2d1e00de9719d055c7e282ecf56d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711024904295,
+          "stop" : 1711024904468,
+          "duration" : 173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      }, {
+        "name" : "test_api[case1]",
+        "uid" : "9970a1cf30818373",
+        "parentUid" : "879e2d1e00de9719d055c7e282ecf56d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711024904483,
+          "stop" : 1711024904639,
+          "duration" : 156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      } ],
+      "uid" : "879e2d1e00de9719d055c7e282ecf56d"
+    }, {
+      "name" : "11328-MainThread",
+      "children" : [ {
+        "name" : "test_api[case1]",
+        "uid" : "882a84e083facafd",
+        "parentUid" : "9f00ca28b9ce6afbd49f9c28359fc562",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025208838,
+          "stop" : 1711025209010,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      }, {
+        "name" : "test_api[case0]",
+        "uid" : "56d0f5cf85f11020",
+        "parentUid" : "9f00ca28b9ce6afbd49f9c28359fc562",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711025208666,
+          "stop" : 1711025208838,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
+      } ],
+      "uid" : "9f00ca28b9ce6afbd49f9c28359fc562"
     } ],
     "uid" : "daa1d4deae72f66017fe36277c3b37d8"
   } ]

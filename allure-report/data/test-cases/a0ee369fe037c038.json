@@ -1,5 +1,5 @@
 {
-  "uid" : "de20542142c7827a",
+  "uid" : "a0ee369fe037c038",
   "name" : "test_api[code]",
   "fullName" : "jkcs.test_code#test_api",
   "historyId" : "f09414ac8921315507db9d2e60d9eea3",
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "de20542142c7827a.json",
+  "source" : "a0ee369fe037c038.json",
   "parameterValues" : [ "'code'" ]
 }

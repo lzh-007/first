@@ -7,7 +7,7 @@
       "name" : "TypeError: string indices must be integers, not 'str'",
       "children" : [ {
         "name" : "test_api[code]",
-        "uid" : "fbbedc810da24736",
+        "uid" : "d1f7439ea9ad04cf",
         "parentUid" : "a30fad583b6722ac2edaee6ed80bed14",
         "status" : "broken",
         "time" : {
@@ -23,25 +23,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'code'" ]
       }, {
-        "name" : "test_api[data]",
-        "uid" : "a4a2b915173ba9bf",
-        "parentUid" : "a30fad583b6722ac2edaee6ed80bed14",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711016938362,
-          "stop" : 1711016938362,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'data'" ]
-      }, {
         "name" : "test_api[msg]",
-        "uid" : "96f0a22b4ba39171",
+        "uid" : "a22ccd6f5ee67f83",
         "parentUid" : "a30fad583b6722ac2edaee6ed80bed14",
         "status" : "broken",
         "time" : {
@@ -56,6 +39,23 @@
         "retriesCount" : 1,
         "retriesStatusChange" : false,
         "parameters" : [ "'msg'" ]
+      }, {
+        "name" : "test_api[data]",
+        "uid" : "49e7fba4be5d177",
+        "parentUid" : "a30fad583b6722ac2edaee6ed80bed14",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711016938362,
+          "stop" : 1711016938362,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'data'" ]
       } ],
       "uid" : "a30fad583b6722ac2edaee6ed80bed14"
     } ],

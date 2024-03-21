@@ -4,6 +4,14 @@ import pytest
 import os
 import allure_pytest
 import sys
+import importlib
+
+def rewrite_module(module_name):
+    module = sys.modules[module_name]
+    importlib.reload(module)
+
+rewrite_module("allure_pytest")
+
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 print(BASE_DIR)

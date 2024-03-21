@@ -1,5 +1,15 @@
 [ {
-  "uid" : "fbbedc810da24736",
+  "uid" : "a22ccd6f5ee67f83",
+  "name" : "test_api[msg]",
+  "time" : {
+    "start" : 1711016938362,
+    "stop" : 1711016938362,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d1f7439ea9ad04cf",
   "name" : "test_api[code]",
   "time" : {
     "start" : 1711016938003,
@@ -9,18 +19,18 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "a4a2b915173ba9bf",
-  "name" : "test_api[data]",
+  "uid" : "e091d564d1d9f690",
+  "name" : "test_api[case1]",
   "time" : {
-    "start" : 1711016938362,
-    "stop" : 1711016938362,
-    "duration" : 0
+    "start" : 1711025306494,
+    "stop" : 1711025306652,
+    "duration" : 158
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "96f0a22b4ba39171",
-  "name" : "test_api[msg]",
+  "uid" : "49e7fba4be5d177",
+  "name" : "test_api[data]",
   "time" : {
     "start" : 1711016938362,
     "stop" : 1711016938362,

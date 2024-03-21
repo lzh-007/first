@@ -1,16 +1,16 @@
 {
-  "uid" : "96f0a22b4ba39171",
-  "name" : "test_api[msg]",
+  "uid" : "d1f7439ea9ad04cf",
+  "name" : "test_api[code]",
   "fullName" : "jkcs.test_code#test_api",
-  "historyId" : "1627eff8273727b171542ea29e4c7b6e",
+  "historyId" : "f09414ac8921315507db9d2e60d9eea3",
   "time" : {
-    "start" : 1711016938362,
-    "stop" : 1711016938362,
+    "start" : 1711016938003,
+    "stop" : 1711016938003,
     "duration" : 0
   },
   "status" : "broken",
   "statusMessage" : "TypeError: string indices must be integers, not 'str'",
-  "statusTrace" : "case = 'msg'\n\n    @pytest.mark.parametrize(\"case\",all_Case)\n    def test_api(case):\n>       response=requests.request(url=eval(case[\"接口URL\"]),\n                                  method=case[\"请求方式\"],\n                                  json=eval(case[\"URL参数\"]) ,\n                                  headers=eval(case[\"参数类型\"]) )\nE       TypeError: string indices must be integers, not 'str'\n\njkcs\\test_code.py:14: TypeError",
+  "statusTrace" : "case = 'code'\n\n    @pytest.mark.parametrize(\"case\",all_Case)\n    def test_api(case):\n>       response=requests.request(url=eval(case[\"接口URL\"]),\n                                  method=case[\"请求方式\"],\n                                  json=eval(case[\"URL参数\"]) ,\n                                  headers=eval(case[\"参数类型\"]) )\nE       TypeError: string indices must be integers, not 'str'\n\njkcs\\test_code.py:14: TypeError",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -46,7 +46,7 @@
   } ],
   "parameters" : [ {
     "name" : "case",
-    "value" : "'msg'"
+    "value" : "'code'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -54,12 +54,12 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "da9b34ae1859636a",
+      "uid" : "a0ee369fe037c038",
       "status" : "broken",
       "statusDetails" : "TypeError: string indices must be integers, not 'str'",
       "time" : {
-        "start" : 1710338374984,
-        "stop" : 1710338374984,
+        "start" : 1710338374633,
+        "stop" : 1710338374633,
         "duration" : 0
       }
     } ],
@@ -70,6 +70,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "96f0a22b4ba39171.json",
-  "parameterValues" : [ "'msg'" ]
+  "source" : "d1f7439ea9ad04cf.json",
+  "parameterValues" : [ "'code'" ]
 }

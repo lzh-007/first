@@ -1,5 +1,5 @@
 {
-  "uid" : "da9b34ae1859636a",
+  "uid" : "822ec3fc38895356",
   "name" : "test_api[msg]",
   "fullName" : "jkcs.test_code#test_api",
   "historyId" : "1627eff8273727b171542ea29e4c7b6e",
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "da9b34ae1859636a.json",
+  "source" : "822ec3fc38895356.json",
   "parameterValues" : [ "'msg'" ]
 }

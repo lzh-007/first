@@ -9,13 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "96f0a22b4ba39171",
+      "uid" : "a22ccd6f5ee67f83",
       "status" : "broken",
       "statusDetails" : "TypeError: string indices must be integers, not 'str'",
       "time" : {
         "start" : 1711016938362,
         "stop" : 1711016938362,
         "duration" : 0
+      }
+    } ]
+  },
+  "35833a1c04d1660000c3a2b5939e019b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e091d564d1d9f690",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711025306494,
+        "stop" : 1711025306652,
+        "duration" : 158
       }
     } ]
   },
@@ -29,7 +48,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a4a2b915173ba9bf",
+      "uid" : "49e7fba4be5d177",
       "status" : "broken",
       "statusDetails" : "TypeError: string indices must be integers, not 'str'",
       "time" : {
@@ -49,7 +68,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fbbedc810da24736",
+      "uid" : "d1f7439ea9ad04cf",
       "status" : "broken",
       "statusDetails" : "TypeError: string indices must be integers, not 'str'",
       "time" : {

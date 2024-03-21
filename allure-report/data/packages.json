@@ -5,7 +5,7 @@
     "name" : "jkcs.test_code",
     "children" : [ {
       "name" : "test_api[code]",
-      "uid" : "fbbedc810da24736",
+      "uid" : "d1f7439ea9ad04cf",
       "parentUid" : "dc23f0828b465e2d988510dafd401b6e",
       "status" : "broken",
       "time" : {
@@ -21,8 +21,25 @@
       "retriesStatusChange" : false,
       "parameters" : [ "'code'" ]
     }, {
+      "name" : "test_api[msg]",
+      "uid" : "a22ccd6f5ee67f83",
+      "parentUid" : "dc23f0828b465e2d988510dafd401b6e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1711016938362,
+        "stop" : 1711016938362,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "'msg'" ]
+    }, {
       "name" : "test_api[data]",
-      "uid" : "a4a2b915173ba9bf",
+      "uid" : "49e7fba4be5d177",
       "parentUid" : "dc23f0828b465e2d988510dafd401b6e",
       "status" : "broken",
       "time" : {
@@ -38,22 +55,22 @@
       "retriesStatusChange" : false,
       "parameters" : [ "'data'" ]
     }, {
-      "name" : "test_api[msg]",
-      "uid" : "96f0a22b4ba39171",
+      "name" : "test_api[case1]",
+      "uid" : "e091d564d1d9f690",
       "parentUid" : "dc23f0828b465e2d988510dafd401b6e",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1711016938362,
-        "stop" : 1711016938362,
-        "duration" : 0
+        "start" : 1711025306494,
+        "stop" : 1711025306652,
+        "duration" : 158
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 15,
       "retriesStatusChange" : false,
-      "parameters" : [ "'msg'" ]
+      "parameters" : [ "{'描述': '登录接口', '用例编号': 'login_api_001', '接口URL': '\"http://kdtx-test.itheima.net/api/login\"', '请求方式': 'post', 'URL参数': '{\\n    \"username\": \"admin\",\\n    \"password\": \"admin123\",\\n    \"code\": 2,\\n    \"uuid\": \"f3334fd726bf4155b787198c701786b6\"\\n}', '参数类型': '{\\n    \"Content-Type\": \"application/json\"\\n}', '预期状态码': 200, '参数读取': '{\"login_token\"=\"$.token\"}'}" ]
     } ],
     "uid" : "jkcs.test_code"
   } ]
