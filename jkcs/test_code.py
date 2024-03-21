@@ -5,7 +5,7 @@ import os
 import allure_pytest
 
 
-all_Case=xToolkit.xfile.read("test.xls").excel_to_dict(sheet=0)
+all_Case=xToolkit.xfile.read('../test.xls').excel_to_dict(sheet=0)
 print("所有信息：",all_Case)
 
 
